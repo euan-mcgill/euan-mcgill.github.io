@@ -11,14 +11,19 @@
 h2 {
 	color: #111111;
 	margin-left: 60px;
+	font-size: 300%;
 }
-
+p {
+	font-size: 140%;
+	margin-right: 60px;
+}
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #C9FFD1;
 }
 
-/* Style the side navigation */
+/* Style the side navigation */ /* Site is based on a template from https://www.w3schools.com/css/tryit.asp?filename=trycss_template4 */
 .sidenav {
   height: 100%;
   width: 200px;
@@ -26,22 +31,22 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #F2F2F2;
   overflow-x: hidden;
 }
 
 
 /* Side navigation links */
 .sidenav a {
-  color: white;
-  padding: 16px;
+  color: black;
+  padding: 14px;
   text-decoration: none;
   display: block;
 }
 
 /* Change color on hover */
 .sidenav a:hover {
-  background-color: #ddd;
+  background-color: #C9FFD1;
   color: black;
 }
 
@@ -55,16 +60,28 @@ body {
 <body>
 
 <div class="sidenav">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
+  <img src="profpic.jpeg" alt="Euan McGill profile picture" width="200" height="200">
+  <a href="#">CV</a>
+  <a href="#">PhD</a>
+  <a href="#">Proportional Representation</a>
+  <a href="#">Blog</a>
 </div>
 
 <div class="content">
-  <h2>CSS Template</h2>
-  <p>A full-height, fixed sidenav and content.</p>
+<h2>
+    Euan McGill 
+</h2>
+
+  <p style="font-size:165%;" align="justify">Welcome to my site! My research projects, tools I'm working on, CV and contact information all live here.</p>
+
+  <p align="justify">A little about me: I am a linguist and PhD researcher in Natural Language Processing, currently in my second year at Universitat Pompeu Fabra, Barcelona. I am involved in the EU Horizon 2020 project SignON which aims to develop a spoken-to sign language translation platform accessible to all. My academic research centres around increasing accessibility by leveraging NLP technology, including work on Automatic Text Simplification, Corpus Linguistics, Machine Translation, and data augmentation methods. </p>
+
+  <p align="justify">I am also passionate about democracy, and the political geography of my home in Britain. A whole section of this site is devoted to my project on examining what the political history of the UK could have been under a system of proportional representation.</p>
 </div>
 
+<footer style="margin-top: 300px;">
+	<p style="font-size: 75%;" align="center"> Site is based on a template from <a href="https://www.w3schools.com">https://www.w3schools.com</a>. Copyright © 2023 Euan McGill. All rights reserved </p>
+</footer>
+
 </body>
-/* Site is based on a template from https://www.w3schools.com/css/tryit.asp?filename=trycss_template4 */
 </html>
