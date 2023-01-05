@@ -63,15 +63,48 @@ body {
 
 <div class="sidenav"> 
   <a href="../index.html">Home</a>
-  <a href="#">INSERT</a>
-  <a href="#">INSERT</a>
-  <a href="#">INSERT</a>
-  <a href="#">INSERT</a>
+  <a href="methods.html">Proportional voting methods</a>
+  <a href=#>Tool</a>
+  <p style="padding-left: 14px;"> <strong> National Upper House </strong> </p>
+  <a href="senate.html">Senate</a>
+  <p style="padding-left: 14px;"> <strong> Devolved Assemblies </strong> </p>
+  <a href="em.html">East Midlands</a>
+  <a href="ea.html">East of England</a>
+  <a href="ld.html">London</a>
+  <a href="ne.html">North East</a>
+  <a href="nw.html">North West</a>
+  <a href="se.html">South East</a>
+  <a href="sw.html">South West</a>
+  <a href="wm.html">West Midlands</a>
+  <a href="yh.html">Yorkshire and the Humber</a>
+  <a href="sc.html">Scotland</a>
+  <a href="cy.html">Wales</a>
+  <a href="ni.html">Northern Ireland</a>
 </div>
 
 <div class="content">
+	<p> <em> For more background, please have a read of the Medium article which is a companion to this data resource. </em> </p>
+
 <h2> What if the United Kingdom had always had proportional representation? </h2>
-  <p> b </p>
+  <p align="justify"> This section contains data and analysis of an experiment into introducing forms of proportional representation already present in UK elections to our national elections. As shown in the image below, a two-tier system of government is proposed: A nationwide senate could function as an upper house, with twelve devolved assemblies (nine new assemblies for the regions of England as well as the current national executives for Scotland, Wales and Northern Ireland). In this proposed system, there would be a similar number of representatives as in the current system. Only this time, every member is <strong>democratically and fairly elected</strong>. In the left navigation pane, results for each real-life election in this proposed system can be found. </p>
+  <p align="center"><img src="parl.png" alt="Proposed structure of national government, with a nationwide senate and a devolved assembly for each nation and region"></p>
+   <p align="justify">This page imagines this system has already been in place, and uses <strong>real life election results</strong> within the proposed system to see how different things could have been. UK General Election results from 1955-2019 obtained from <a href="https://www.electoralcalculus.co.uk/flatfile.html">Electoral Calculus</a> are used to calculate national elections using a regional proportional system. The code used to calculate these alternative election results can be found and freely used on my <a href="https://github.com/euan-mcgill/euan-projects/tree/master/pol"> Github</a>. </p>
+
+ <h2> What would the Upper House look like, and how are members elected? </h2>
+  <p align="justify">A 250-member <a href="senate.html">senate</a> to replace the House of Lords would be directly elected by the population. Members would be elected from the 12 geographical and cultural regions of the UK, as shown in the image below (credit: Electoral Calculus). These have been used previously to elect Members of the European Parliament, and for other statistical and administative purposes. Each region's allocation of seats is assigned based on population, or to be more dynamic, the size of the electorate at a given election.</p>
+  <p align="center"> <img src="area_map_small.jpg" height="407px" width="287px"> </p>
+  <p> Because this would be the only national parliament in the proposed system, alternative election results are drawn from each United Kingdom general election since 1955, and we can draw comparisons from there. Just like in the European Union elections in the past, the <a href="methods.html">D'Hondt method would be used to allocate members in each of the twelve regions.</a> </p>
+
+ <h2>How can we model devolved regional English assemblies?</h2>
+  <p align="justify">The short answer to this is that it is straightforward, and would follow what is already the case in Scotland and Wales. Not only would this deliver equal decision making to English regions of roughly similar populations, but also resolve democratic issues such as the <a href="https://www.parliament.uk/site-information/glossary/west-lothian-question/">West Lothian Question</a>. This means more specifically that regions maintain geographical constituency which have a <strong>local representative</strong> which voters tend to prefer, but also a proportional element through <a href="methods.html">'additional members'</a> being elected proportionally. As with the Scottish parliament and the Welsh Senedd, English devolved assemblies could consist of between 1/2 and 2/3 of their seats as <a href="methods.html">First-Past-The-Post</a> constituency members. The rest (between 1/3 and 1/2) of the seats are allocated within the Additional Member System, <em>i.e.</em> using the D'Hondt method while carrying over the seat totals from the constituency vote.</p>
+  <p align="justify">Again, we can model constituency members by simply <strong>retaining Westminster constituencies</strong> in each regional assembly. The top-up members would be elected on a second ballot paper, the <strong>'regional list'</strong> as will be familiar to voters from Scotland and Wales. We can simulate how the public behave on a regional list by using data from previous European Union elections in each of the former regional constituencies which are exactly the same regions the proposed assemblies come from. </p>
+
+ <h2> What would this look like in practice? <em> An example from the 2019 General and EU elections: </em> </h2>
+  <p align="justify"></p>
+
+ <h2> Will these elections be fairer? </h2>
+  <p align="justify">In my opinion... absolutely, yes! (...)</p>
+
 </div>
 
 <footer style="margin-top: 300px; margin-left: 220px;">
