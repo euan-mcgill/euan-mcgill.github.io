@@ -4,6 +4,7 @@
 <title>Euan McGill - CV</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <style>
 * {
   box-sizing: border-box;
@@ -56,6 +57,34 @@ body {
   margin-left: 200px;
   padding-left: 20px;
 }
+
+/* Style column format */
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 20px;
+
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row{
+  border-style: solid;
+  border-color: #89a38d;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 </style>
 </head>
 <body>
@@ -63,18 +92,36 @@ body {
 <div class="sidenav">
   <img src="profpic.jpeg" alt="Euan McGill profile picture" width="200" height="200">
   <a href="./index.html">Home</a>
-  <a href="#">PhD</a>
-  <a href="./pr/pr-home.html">Proportional Representation</a>
-  <a href="https://github.com/euan-mcgill">My projects <img src="Octicons-mark-github.svg" width="20" height="20"></a>
-  <a href="#">Blog</a>
+  <a> <strong> CV Navigation </strong> </a>
+  <a href="#Experience">Experience</a>
+  <a href="#Education">Education</a>
+  <a href="#Teaching">Teaching</a>
+  <a href="#Training">Training</a>
+  <a href="#Pubs">Publications</a>
+  <a href="#Refs">References</a>
 </div>
 
 <div class="content">
 
-<p>PDF version can be found here: &ensp; <button type="button" onclick="location.href='./cv.pdf'">2-Page CV</button> </p>
+<p align="center">PDF version can be found here: &ensp; <button type="button" onclick="location.href='./cv.pdf'">2-Page CV</button> </p>
 
-<hr>
-  <h2> Experience and Appointments</h2>
+<div class="row">
+  <div class="column left">
+    <p><a name="Links"></a><b>Key Information and Links:</b></p>
+    <p></p>
+    <p><i class="fa-brands fa-google"></i><a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=IPtwnwYAAAAJ"> Google Scholar</a></p>
+    <p><i class="fa-brands fa-orcid"></i><a href="https://orcid.org/0000-0001-6470-8188"> ORCID</a></p>
+    <p><i class="fa-brands fa-twitter"></i> <a href="https://twitter.com/EuanMcG">Twitter</a></a></p>
+  </div>
+  <div class="column right">
+    <p><br></p>
+    <p><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/euan-mcgill/"> LinkedIn</a></p>
+    <p><i class="fa-solid fa-building-columns"></i><a href="https://www.upf.edu/web/taln/people/-/asset_publisher/DU4frAeBmvPt/content/mcgill-euan/maximized"> Universitat Pompeu Fabra</a></p>
+    <p><i class="fa-brands fa-github"></i><a href="https://github.com/euan-mcgill"> Github</a></p>
+  </div>
+</div>
+
+  <h2> <a name="Experience"> Experience and Appointments</a></h2>
   <li style="font-size:130%;" align="justify">Doctoral Researcher</li>
   <p align="justify"><b>Universitat Pompeu Fabra</b> &ensp; &#x2022; &ensp; <em>September 2021-</em> &ensp; &#x2022; &ensp; Barcelona<br>Projects: Natural Language Processing for Sign Languages (NLP4SL), SignON</p>
 
@@ -94,60 +141,74 @@ body {
   <p align="justify"><b>The University of Edinburgh</b> &ensp; &#x2022; &ensp; April 2016 - August 2016 &ensp; &#x2022; &ensp; Edinburgh<br></p>
 
 <hr>
-  <h2> Education </h2>
+  <h2><a name="Education"> Education</a> </h2>
   <li style="font-size:130%;" align="justify">PhD - Information and Communication Technologies</li>
   <p align="justify"><b>Universitat Pompeu Fabra, Barcelona</b> &ensp; &#x2022; &ensp; <em>September 2021-</em> 
-  <br> Supervisor: Prof. Horacio Saggion </p>
+  <br> Supervisor: Prof. Horacio Saggion 
+  <br> Grant funding: PIPF1 teaching scholarship 2021-</p>
 
   <li style="font-size:130%;" align="justify">MSc - Speech and Language Processing</li>
   <p align="justify"><b>The University of Edinburgh</b> &ensp; &#x2022; &ensp; <em>September 2016-August 2017</em> 
-  <br> Thesis: "Investigating articulatory variation in the DoubleTalk corpus: Electromagnetic Articulography evidence of phonetic and speech-style variation" &ensp; &#x2022; &ensp; Supervisor: Dr. James Kirby, Dr. Korin Richmond &ensp; &#x2022; &ensp; Grade: <em>Merit</em>
-  <br></p>
+  <br> - Thesis: "Investigating articulatory variation in the DoubleTalk corpus: Electromagnetic Articulography evidence of phonetic and speech-style variation" &ensp; &#x2022; &ensp; Supervisor: Dr. James Kirby, Dr. Korin Richmond &ensp; &#x2022; &ensp; Grade: <em>Merit</em>
+  <br> - Courses: Accelerated Natural Language Processing, Speech Processing, Computer Programming for Speech and Language Processing, Introduction to Syntax, Automatic Speech Recognition, Speech Synthesis, Special Topics in Sociolinguistics, The Human Factor - Working with Users, Special Topics in Phonetics, Univariate Statistics and Methodology using R</p>
 
   <li style="font-size:130%;" align="justify">MA (Hons) - Linguistics</li>
   <p align="justify"><b>The University of Edinburgh</b> &ensp; &#x2022; &ensp; <em>September 2012-June 2016</em> 
-  <br> Thesis: "The thing about [h&#x026A;&#x014B;]: Production, perception and qualitative data from (th):[h] in Edinburgh speech" &ensp; &#x2022; &ensp; Supervisor: Prof. Patrick Honeybone &ensp; &#x2022; &ensp; Grade: <em>2:1</em>
-  <br></p>
+  <br> - Thesis: "The thing about [h&#x026A;&#x014B;]: Production, perception and qualitative data from (th):[h] in Edinburgh speech" &ensp; &#x2022; &ensp; Supervisor: Prof. Patrick Honeybone &ensp; &#x2022; &ensp; Grade: <em>2:1</em>
+  <br>- Pre-Honours courses: French, Russian Studies, Linguistics and English Language 
+  <br> - Honours courses: Phonetics and Laboratory Phonology, Advanced Phonetics, Phonological Theory, Historical Phonology, Morphology, Current Issues in Morphology, Psycholinguistics, Sociolinguistics, Origins and Evolutions of Language, Second Language Acquisition</p>
 
 <hr>
-  <h2> Teaching and Mentoring </h2>
-  <li style="font-size:130%;" align="justify"></li>
-  <li style="font-size:130%;" align="justify"></li>
-  <li style="font-size:130%;" align="justify"></li>
+  <h2> <a name="Teaching">Teaching and Mentoring</a> </h2>
+  <li style="font-size:130%;" align="justify">Teaching assistant:</li>
+  <p align="justify">Autumn 2022-3 &emsp; Intelligent Web Applications, Universitat Pompeu Fabra - seminars and labs</p>
+  <p align="justify">Autumn 2021-3 &emsp; Databases, Universitat Pompeu Fabra - seminars</p>
+  <p align="justify">Summer 2022 &emsp; Algorithms and Data Stuctures II, Universitat Pompeu Fabra - seminars</p>
 
 <hr>
-  <h2> Training and Further Education </h2>
-  <li style="font-size:130%;" align="justify"></li>
-  <li style="font-size:130%;" align="justify"></li>
-  <li style="font-size:130%;" align="justify"></li>
+  <h2> <a name="Training">Training and Further Education</a> </h2>
+
+  <li style="font-size:130%;" align="justify">Further study:</li>
+  <p align="justify">2022, September &emsp; Meditteranean Machine Learning summer school (M2L) @ Università degli Studi Milano-Bicocca</p>
+  <p align="justify">2021, July &emsp; Deep Learning for NLP (DL4NLP) @ HiTZ Zentroa, Universidad del País Vasco (remote)</p>
+  <p align="justify">2020, December &emsp; Bayesian Statistics: From Concepts to Data Analysis @ University of Santa Cruz (via Coursera)</p>
+  <p align="justify">2020, June &emsp; Introduction to TensorFlow for Artificial Intelligence, Machine Learning and Deep Learning @ deeplearning.ai (via Coursera)</p>
+
+  <li style="font-size:130%;" align="justify">Certifications:</li>
+  <p align="justify">2023, March &emsp; Catalan, level B1 @ Idiomes UPF, Universitat Pompeu Fabra</p>
+  <p align="justify">2022, November &emsp; Research Ethics and Personal Data Protection, Institutional Committee for Ethical Review of Projects, Universitat Pompeu Fabra</p> 
+  <p align="justify">2016, October &emsp; Office Bearer Training, Edinburgh University Students' Association</p>
 
 <hr>
-  <h2> Academic output </h2>
+  <h2><a name="Pubs"> Academic output </a></h2>
 
   <li style="font-size:130%;" align="justify">Publications:</li>
-  <p align="justify"><em>forthcoming</em> &emsp; Saggion, H., McGill, E., Chiruzzo, L., & Egea Gómez, S. <em>Linguistic Processing for Sign Language Translation</em> (Manuscript under review)</p>
+  <p align="justify"><em>forthcoming</em> &emsp; Saggion, H., <b>McGill, E.</b>, Chiruzzo, L., & Egea Gómez, S. <em>Linguistic Processing for Sign Language Translation</em> (Manuscript under review)</p>
 
-  <p align="justify">2023 &emsp; McGill, E. & Saggion, H. BSL-Hansard: A parallel, multimodal corpus of English and interpreted British Sign Language data from parliamentary proceedings. In: <em> Proceedings of the Second International Workshop on Automatic Translation for Signed and Spoken Languages (AT4SSL),</em> 43-48. Tampere, Finland.</p>
+  <p align="justify">2023 &emsp; Vandeghinste, V., Shterionov, D., De Sisto, M., Brady, De Coster, M., Leeson, L., Blat, J., Picron, F., Scipioni, M. P., Parikh, A., ten Bosch, L., O'Flaherty, J., Dambre, J., Rijckaert, J., Vanroy, B., Ubieto Nogales, V., Egea Gómez, S., Schuurman, I., Labaka, G., Núñez Marcos, A., Murtagh, I., <b>McGill, E.</b>, & Saggion, H. SignON Sign Language Translation: Progress and Challenges. In: <em>Proceedings of the 24th Annual Conference of the European Association for Machine Translation (EAMT 2023),</em>501-502. Tampere, Finland</p>
 
-  <p align="justify"><a href="https://aclanthology.org/2023.resourceful-1.10.pdf"> 2023</a> &emsp; McGill, E., Chiruzzo, L., Egea Gómez, S., & Saggion, H. Part-of-Speech tagging Spanish Sign Language data and its applications in Sign Language machine translation. In: <em>Proceedings of the Second Workshop on Resources and Representations for Under-Resourced Languages and Domains (RESOURCEFUL-2023),</em>70-76. Tórshavn, Faroe Islands.</p>
+  <p align="justify">2023 &emsp; <b>McGill, E.</b> & Saggion, H. BSL-Hansard: A parallel, multimodal corpus of English and interpreted British Sign Language data from parliamentary proceedings. In: <em> Proceedings of the Second International Workshop on Automatic Translation for Signed and Spoken Languages (AT4SSL),</em> 43-48. Tampere, Finland.</p>
 
-  <p align="justify"><a href="https://aclanthology.org/2022.loresmt-1.10.pdf"> 2022</a> &emsp; Chiruzzo, L., McGill, E., Egea Gómez, S., & Saggion, H. Translating Spanish into Spanish Sign Language: Combining Rules and Data-driven Approaches. In: <em>Proceedings of the Fifth Workshop on Technologies for Machine Translation of Low-Resource Languages (LoResMT 2022),</em> 75-83. Gyeongju, Republic of Korea. </p>
+  <p align="justify"><a href="https://aclanthology.org/2023.resourceful-1.10.pdf"> 2023</a> &emsp; <b>McGill, E.</b>, Chiruzzo, L., Egea Gómez, S., & Saggion, H. Part-of-Speech tagging Spanish Sign Language data and its applications in Sign Language machine translation. In: <em>Proceedings of the Second Workshop on Resources and Representations for Under-Resourced Languages and Domains (RESOURCEFUL-2023),</em>70-76. Tórshavn, Faroe Islands.</p>
 
-  <p align="justify"><a href="https://link.springer.com/chapter/10.1007/978-3-031-08473-7_16">2022</a> &emsp; Egea Gómez, S., Chiruzzo, L., McGill, E., & Saggion, H. Linguistically Enhanced Text to Sign Gloss Machine Translation. In: <em>Proceedings of the 27th International Conference on Natural Language & Information Systems (NLDB 2022),</em>172-183. València, Spain.</p>
+  <p align="justify"><a href="https://aclanthology.org/2022.loresmt-1.10.pdf"> 2022</a> &emsp; Chiruzzo, L., <b>McGill, E.</b>, Egea Gómez, S., & Saggion, H. Translating Spanish into Spanish Sign Language: Combining Rules and Data-driven Approaches. In: <em>Proceedings of the Fifth Workshop on Technologies for Machine Translation of Low-Resource Languages (LoResMT 2022),</em> 75-83. Gyeongju, Republic of Korea. </p>
 
-  <p align="justify"><a href="https://ceur-ws.org/Vol-3030/paper7.pdf">2021</a> &emsp; McGill, E. Tailoring Automatic Text Simplification Output for Deaf and Hard of Hearing Adults. In: <em>Proceedings of the Doctoral Symposium on Natural Language Processing from the PLN.net network 2021,</em>50-59. Jaén, Spain.</p>
+  <p align="justify"><a href="https://link.springer.com/chapter/10.1007/978-3-031-08473-7_16">2022</a> &emsp; Egea Gómez, S., Chiruzzo, L., <b>McGill, E.</b>, & Saggion, H. Linguistically Enhanced Text to Sign Gloss Machine Translation. In: <em>Proceedings of the 27th International Conference on Natural Language & Information Systems (NLDB 2022),</em>172-183. València, Spain.</p>
 
-  <p align="justify"><a href="https://aclanthology.org/2021.bucc-1.4.pdf">2021</a> &emsp; Egea Gómez, McGill, E., & Saggion, H. Syntax-aware Transformers for Neural Machine Translation: The case of text to sign gloss translation. In: <em>Proceedings of the 14th Workshop on Building and Using Comparable Corpora (BUCC 2021),</em>18-27. Online.</p>
+  <p align="justify"><a href="https://ceur-ws.org/Vol-3030/paper7.pdf">2021</a> &emsp; <b>McGill, E.</b> Tailoring Automatic Text Simplification Output for Deaf and Hard of Hearing Adults. In: <em>Proceedings of the Doctoral Symposium on Natural Language Processing from the PLN.net network 2021,</em>50-59. Jaén, Spain.</p>
 
-  <p align="justify"><a href="http://journals.ed.ac.uk/lifespansstyles/article/view/1612/pdf_10">2016</a> &emsp; Purse, R. & McGill, E. An intraspeaker variation study of Scottish /r/ pharyngealisation. <em>Lifespans & Styles, </em>2(2), 36-44.</p>
+  <p align="justify"><a href="https://aclanthology.org/2021.bucc-1.4.pdf">2021</a> &emsp; Egea Gómez, <b>McGill, E.</b>, & Saggion, H. Syntax-aware Transformers for Neural Machine Translation: The case of text to sign gloss translation. In: <em>Proceedings of the 14th Workshop on Building and Using Comparable Corpora (BUCC 2021),</em>18-27. Online.</p>
+
+  <p align="justify"><a href="http://journals.ed.ac.uk/lifespansstyles/article/view/1612/pdf_10">2016</a> &emsp; Purse, R. & <b>McGill, E.</b> An intraspeaker variation study of Scottish /r/ pharyngealisation. <em>Lifespans & Styles, </em>2(2), 36-44.</p>
 
   <li style="font-size:130%;" align="justify">Presentations:</li>
 
-  <p align="justify">2023, June 26-27 &emsp; <em>Improving Sign Language machine translation results by using linguistic features and other data augmentation methods: A series of studies on Spanish Sign Language (LSE) and German Sign Language (DGS)</em> [Poster Presentation] 2nd Cardiff NLP Summer Workshop </p>
+  <p align="justify">2023, June 26-27 &emsp; <b>McGill, E.</b>, Saggion, H., Egea Gómez, S., & Chiruzzo, L. <em>Improving Sign Language machine translation results by using linguistic features and other data augmentation methods: A series of studies on Spanish Sign Language (LSE) and German Sign Language (DGS)</em> [Poster Presentation] 2nd Cardiff NLP Summer Workshop </p>
 
-  <p align="justify">2017, January 25 &emsp; <em>The thing about [h&#x026A;&#x014B;]: Production, perception and qualitative data from (th):[h] in Edinburgh speech</em> [Poster Presentation] Scots@ed </p>
+  <p align="justify">2017, January 25 &emsp; <b>McGill, E.</b> <em>The thing about [h&#x026A;&#x014B;]: Production, perception and qualitative data from (th):[h] in Edinburgh speech</em> [Poster Presentation] Scots@ed </p>
 
   <li style="font-size:130%;" align="justify">Other work:</li>
+  <p align="justify"> <br> </p>
 
 <!-- <hr>
   <h2> University Service </h2>
@@ -167,7 +228,7 @@ body {
 
 <hr>
   <h2> References </h2>
-  <p align="justify">Available on request </p>
+  <p align="justify">Academic and employment references available on request </p>
 
 
 <footer style="margin-top: 300px;">
