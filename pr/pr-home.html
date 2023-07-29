@@ -63,50 +63,61 @@ body {
 
 <div class="sidenav"> 
   <a href="../index.html">Home</a>
-  <a href="methods.html">Proportional voting methods</a>
-  <a href=#>Tool</a>
-  <p style="padding-left: 14px;"> <strong> National Upper House </strong> </p>
-  <a href="senate.html">Senate (General Elections)</a>
-  <a href="polls.html">Senate (Opinion Polls)</a>
-  <a href="senate.html">Senate (Historical)</a>
-  <p style="padding-left: 14px;"> <strong> Devolved Assemblies </strong> </p>
-  <a href="em.html">East Midlands</a>
-  <a href="ea.html">East of England</a>
-  <a href="ld.html">London</a>
-  <a href="ne.html">North East</a>
-  <a href="nw.html">North West</a>
-  <a href="se.html">South East</a>
-  <a href="sw.html">South West</a>
-  <a href="wm.html">West Midlands</a>
-  <a href="yh.html">Yorkshire and the Humber</a>
-  <a href="https://www.parliament.scot/msps/elections">Scotland</a>
-  <a href="https://en.wikipedia.org/wiki/List_of_Senedd_elections">Wales</a>
-  <a href="https://en.wikipedia.org/wiki/Elections_in_Northern_Ireland#Elections_to_the_Northern_Ireland_Assembly">Northern Ireland</a>
+  <a> <strong> Overview and Results </strong> </a>
+  <a href="#HoLR">House of Lords reform</a>
+  <a href="#HoCr">House of Commons - PR based UK regions</a>
+  <a href="#HoCc">House of Commons - PR based on UK Counties</a>
+  <a href="#HoC">House of Commons - FPTP real results</a>
+</a>
 </div>
 
 <div class="content">
-	<p> <em> For more background, please have a read of the <a href="https://medium.com/@euan.mcgill/what-if-the-uk-had-always-had-proportional-representation-f852cf7343b9">Medium article</a> which is a companion to this data resource. </em> </p>
+<h2><a name="HoLR">House of Lords reform - projected results</a></h2>
+<p align='justify'>These projections are based on the plans laid out in the '<a href="https://publications.parliament.uk/pa/bills/cbill/2012-2013/0052/13052.pdf">House of Lords Reform Bill 2012</a>.' This bill was <a href="https://www.bbc.com/news/uk-politics-19149212">not passed through parliament</a>, but would have gradually introduced proportionally elected members alongside appointed ones. By 2020, the upper chamber would have comprised of 240 directly elected members, 60 members appointed by an independent advisory body, and 16 Lords Spiritual (Bishops).</p>
 
-<h2> What if the United Kingdom had always had proportional representation? </h2>
-  <p align="justify"> This section contains data and analysis of an experiment into introducing forms of proportional representation already present in UK elections to our national elections. As shown in the image below, a two-tier system of government is proposed: A nationwide senate could function as an upper house, with twelve devolved assemblies (nine new assemblies for the regions of England as well as the current national executives for Scotland, Wales and Northern Ireland). In this proposed system, there would be a similar number of representatives as in the current system. Only this time, every member is <strong>democratically and fairly elected</strong>. In the left navigation pane, results for each real-life election in this proposed system can be found. </p>
-  <p align="center"><img src="parl.png" alt="Proposed structure of national government, with a nationwide senate and a devolved assembly for each nation and region"></p>
-   <p align="justify">This page imagines this system has already been in place, and uses <strong>real life election results</strong> within the proposed system to see how different things could have been. UK General Election results from 1955-2019 obtained from <a href="https://www.electoralcalculus.co.uk/flatfile.html">Electoral Calculus</a> are used to calculate national elections using a regional proportional system. The code used to calculate these alternative election results can be found and freely used on my <a href="https://github.com/euan-mcgill/euan-projects/tree/master/pol"> Github</a>. </p>
+<p align='justify'>The proportionally elected seats follow on from those used in former elections to the European parliament and those used for statistical purposes currently in the UK. The UK is divided into 12 countries or regions (pictured below, <a href="https://www.electoralcalculus.co.uk/area_defns_eu.html">image credit</a>). Scotland, Wales and Northern Ireland constitue their own district, while England is divided into nine regions: North East, North West, Yorkshire and the Humber, West Midlands, East Midlands, Anglia/Eastern, South West, London, and South East. Seats are apportioned to each electoral district based on the size of each respective electorate - the smallest constituency is Northern Ireland with 7 seats, and South East England with 33 seats of the 240 total. </p>
 
- <h2> What would the Upper House look like, and how are members elected? </h2>
-  <p align="justify">A 250-member <a href="senate.html">senate</a> to replace the House of Lords would be directly elected by the population. Members would be elected from the 12 geographical and cultural regions of the UK, as shown in the image below (credit: Electoral Calculus). These have been used previously to elect Members of the European Parliament, and for other statistical and administative purposes. Each region's allocation of seats is assigned based on population, or to be more dynamic, the size of the electorate at a given election.</p>
-  <p align="center"> <img src="area_map_small.jpg" height="407px" width="287px"> </p>
-  <p> Because this would be the only national parliament in the proposed system, alternative election results are drawn from each United Kingdom general election since 1955, and we can draw comparisons from there. Just like in the European Union elections in the past, the <a href="methods.html">D'Hondt method would be used to allocate members in each of the twelve regions.</a> </p>
+<p align="center"><img src="area_map_small.jpg"></p>
 
- <h2>How can we model devolved regional English assemblies?</h2>
-  <p align="justify">The short answer to this is that it is straightforward, and would follow what is already the case in Scotland and Wales. Not only would this deliver equal decision making to English regions of roughly similar populations, but also resolve democratic issues such as the <a href="https://www.parliament.uk/site-information/glossary/west-lothian-question/">West Lothian Question</a>. This means more specifically that regions maintain geographical constituency which have a <strong>local representative</strong> which voters tend to prefer, but also a proportional element through <a href="methods.html">'additional members'</a> being elected proportionally. As with the Scottish parliament and the Welsh Senedd, English devolved assemblies could consist of between 1/2 and 2/3 of their seats as <a href="methods.html">First-Past-The-Post</a> constituency members. The rest (between 1/3 and 1/2) of the seats are allocated within the Additional Member System, <em>i.e.</em> using the D'Hondt method while carrying over the seat totals from the constituency vote.</p>
-  <p align="justify">Again, we can model constituency members by simply <strong>retaining Westminster constituencies</strong> in each regional assembly. The top-up members would be elected on a second ballot paper, the <strong>'regional list'</strong> as will be familiar to voters from Scotland and Wales. We can simulate how the public behave on a regional list by using data from previous European Union elections in each of the former regional constituencies which are exactly the same regions the proposed assemblies come from. </p>
+<p align='justify'>The results below project the 316-seat reformed House of Lords based on elections and polls since 2009 (the most recent EU/General elections from the introduction of the draft Reform Bill). In reality, members - and therefore the shape of the house - would not change so frequently so each result shows a snapshot of the political opinion at a given election expressed proportionally.</p>
 
- <h2> What would this look like in practice? <em> An example from the 2019 General and EU elections: </em> </h2>
-  <p align="justify">Link to <a href="senate.html#2019">2019 modelled election results</a>, see <a href="em.html">regional assemblies tab</a> such as this one for devolved assemblies.</p>
+<p align='justify'>The intended voted system according to the Reform Bill is a "party list" system, and the Single Transferable Vote (STV) in Northern Ireland. It is therefore reasonable to state that the D'Hondt system is a realistic method to simulate proportional electoral results, and is therefore used here in all electoral districts. The statistics for historical general elections and constituencies was gathered from Electoral Calculus data, raw data for European Union elections, and the Electoral Calculus poll of polls for poll data. Northern Ireland is modelled with D'Hondt, as these statistics do not provide order of preference statistics.</p>
 
- <h2> Will these elections be fairer? </h2>
-  <p align="justify">In my opinion... absolutely, yes! (...)</p>
+</div>
 
+<div class="flourish-embed flourish-parliament" data-src="visualisation/14576969" data-width="75%" style="padding-left: 240px" align="center"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+<div class="content">
+<p style="font-size:80%;" align="justify">Key to abbreviations: SNP=Scottish National Party; PC=Plaid Cymru; SDLP=Social Democratic and Labour Party; CHUK=Change UK; APNI=Alliance Party of Northern Ireland; UUP=Ulster Unionist Party; UKIP= United Kingdom Independence Party; DUP=Democratic Unionist Party; TUV=Traditional Unionist Voice; BNP=British National Party</p>
+<p style="font-size:80%;" align="justify">* Sinn Féin are an abstentionist party in the UK and would not take their seats</p>
+<p style="font-size:80%;" align="justify">** Change UK only contested the 2019 elections, included in 'Others' in the 2019 General Election</p>
+<p style="font-size:80%;" align="justify">*** There are 60 appointed members and 12 Lords Spiritual in each parliament</p>
+<p style="font-size:80%;" align="justify">^ The Brexit Party included in results from 2019 onwards, and renamed to Reform UK in 2020</p>
+<p style="font-size:80%;" align="justify">+ UKIP not included in poll results</p>
+<p style="font-size:80%;" align="justify">^^ The Christian Party and the BNP are listed separately in EU elections, and in 'Others' for General Elections. They are not included in poll results.</p>
+</div>
+
+<hr>
+
+<div class="content">
+<h2><a name="HoCr">House of Commons - proportionally elected based on UK countries and regions</a></h2>
+
+<p align='justify'>As House of Lords reform seems like a distant prospect, and not overwhelmingly popular with the public, what if the House of Commons was elected proportionally?</p>
+
+<p align='justify'>In this section, the same 12 electoral districts (made up of Scotland, Wales, Northern Ireland and the nine English Regions) are used and seats are split proportionally among them. The total number of seats reflects </p>
+
+</div>
+
+<hr>
+
+<div class="content">
+<h2><a name="HoCc">House of Commons - proportionally elected based on UK counties</a></h2>
+<p align='justify'></p>
+</div>
+
+<div class="content">
+<h2><a name="HoC">House of Commons - real Westminster results</a></h2>
+<p align='justify'></p>
 </div>
 
 <footer style="margin-top: 300px; margin-left: 220px;">
