@@ -27,42 +27,38 @@ body {
 }
 
 /* Style the side navigation */
-.sidenav {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
+.topnav {
   background-color: #F2F2F2;
   overflow-x: hidden;
+  position: fixed;
 }
 
 
 /* Side navigation links */
-.sidenav a {
+.topnav a {
+  float: left;
   color: black;
-  padding: 14px;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  display: block;
+  font-size: 17px;
 }
 
 /* Change color on hover */
-.sidenav a:hover {
+.topnav a:hover {
   background-color: #C9FFD1;
   color: black;
 }
 
 /* Style the content */
 .content {
-  margin-left: 200px;
   padding-left: 20px;
 }
 </style>
 </head>
 <body>
 
-<div class="sidenav"> 
+<div class="topnav"> 
   <a href="../index.html">Home</a>
   <a href="#overview"> <strong> Overview and Results </strong> </a>
   <a href="#HoLR">House of Lords reform</a>
@@ -96,11 +92,11 @@ body {
 
 <p align='justify'>The results below project the 316-seat reformed House of Lords based on elections and polls since 2009 (the most recent EU/General elections from the introduction of the draft Reform Bill). In reality, members - and therefore the shape of the house - would not change so frequently so each result shows a snapshot of the political opinion at a given election expressed proportionally.</p>
 
-<p align='justify'>The intended voted system according to the Reform Bill is a "party list" system, and the Single Transferable Vote (STV) in Northern Ireland. It is therefore reasonable to state that the <a href="https://www.europarl.europa.eu/RegData/etudes/BRIE/2019/637966/EPRS_BRI(2019)637966_EN.pdf">D'Hondt method</a> (also known as 'party list proportional representation') is a realistic method to simulate proportional electoral results, and is therefore used here in all electoral districts. The statistics for historical general elections and constituencies was gathered from <a href="https://www.electoralcalculus.co.uk/flatfile.html">Electoral Calculus data</a>, raw data for European Union elections, and the Electoral Calculus <a href="https://www.electoralcalculus.co.uk/userregpoll.html">poll of polls</a> for poll data. Northern Ireland is modelled with D'Hondt, as these statistics do not provide order of preference statistics.</p>
+<p align='justify'>The intended voting system according to the Reform Bill is a "party list" system, and the Single Transferable Vote (STV) in Northern Ireland. It is therefore reasonable to state that the <a href="https://www.europarl.europa.eu/RegData/etudes/BRIE/2019/637966/EPRS_BRI(2019)637966_EN.pdf">D'Hondt method</a> (also known as 'party list proportional representation') is a realistic method to simulate proportional electoral results, and is therefore used here in all electoral districts. The statistics for historical general elections and constituencies was gathered from <a href="https://www.electoralcalculus.co.uk/flatfile.html">Electoral Calculus data</a>, raw data for European Union elections, and the Electoral Calculus <a href="https://www.electoralcalculus.co.uk/userregpoll.html">poll of polls</a> for poll data. Northern Ireland is modelled with D'Hondt, as these figures do not provide order of preference statistics.</p>
 
 </div>
 
-<div class="flourish-embed flourish-parliament" data-src="visualisation/14576969" data-width="75%" style="padding-left: 240px" align="center"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-parliament" data-src="visualisation/14576969" data-width="75%" align="center"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 <div class="content">
 <p style="font-size:80%;" align="justify">Key to abbreviations: SNP=Scottish National Party; PC=Plaid Cymru; SDLP=Social Democratic and Labour Party; CHUK=Change UK; APNI=Alliance Party of Northern Ireland; UUP=Ulster Unionist Party; UKIP= United Kingdom Independence Party; DUP=Democratic Unionist Party; TUV=Traditional Unionist Voice; BNP=British National Party</p>
@@ -122,7 +118,7 @@ body {
 
 <p align='justify'>In this section, the same 12 electoral districts (made up of Scotland, Wales, Northern Ireland and the nine English Regions) are used and seats are split proportionally among them. <a href="https://www.electoralcalculus.co.uk/flatfile.html">Historical data</a> from all UK General Elections since 1955 are used to model each election, as well as the most recent Electoral Calculus <a href= "https://www.electoralcalculus.co.uk/userregpoll.html">poll-of-polls</a>. The total number of seats reflects the real size of the House of Commons for all of these elections, and ranges from 630-659 members. However, the size of each electoral district's electorate is then used to allocate seats to each district. For example, the smallest district for the 2019 General Election is Northern Ireland with 18 seats (the same as at Westminster currently), and the largest is South East England with 91 seats (currently 84 at Westminster).</p>
 
-<div class="flourish-embed flourish-parliament" data-src="visualisation/14553200" data-width="90%" align="center"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-parliament" data-src="visualisation/14553200" data-width="75%" align="center"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 <p style="font-size:80%;" align="justify">(Full screen may be required to view all elections)</p>
 <p style="font-size:80%;" align="justify">Key to Abbreviations: SNP=Scottish National Party, PC=Plaid Cymru, SDLP=Social Democratic and Labour Party, LD=Liberal Democrats, APNI=Alliance Party of Northern Ireland, UUP=Ulster Unionist Party, UKIP=United Kingdom Independence Party, DUP=Democratic Unionist Party</p>
@@ -147,7 +143,7 @@ body {
 
 <p align='justify'>It is immediately apparent in Northern Ireland where there is great variation between elections between Sinn Féin generally gaining a large majority of seats in recent elections whereas before 2000 it is more balanced between community. This could be due to four of the six counties often only having two or fewer representatives.</p>
 
-<div class="flourish-embed flourish-parliament" data-src="visualisation/14553033" data-width="90%" align="center"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-parliament" data-src="visualisation/14553033" data-width="75%" align="center"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
 <p style="font-size:80%;" align="justify">(Full screen may be required to view all elections)</p>
@@ -165,7 +161,7 @@ body {
 <h2><a name="HoC">House of Commons - real Westminster results</a></h2>
 <p align='justify'>Finally, in the series of arc diagrams showing election results between 1955-2019, are the real Westminster seat distributions based on our current First-Past-the-Post system. The data comes from the official <a href="https://researchbriefings.files.parliament.uk/documents/CBP-7529/CBP-7529.pdf">library of parliament</a>. Again, the most recent Electoral Calculus <a href="https://www.electoralcalculus.co.uk/fcgi-bin/usercode.py?type=regional&CON=26.1&LAB=45.8&LIB=10.8&Reform=5.9&Green=5.5&ScotCON=18.5&ScotLAB=31.5&ScotLIB=7.8&ScotReform=0.0&ScotGreen=1.3&ScotNAT=36.4&NEastCON=21.3&NEastLAB=56.1&NEastLIB=7.2&NEastReform=8.1&NEastGreen=5.1&NWestCON=21.7&NWestLAB=57.5&NWestLIB=7.8&NWestReform=6.3&NWestGreen=5.0&YorksCON=24.3&YorksLAB=52.6&YorksLIB=8.4&YorksReform=7.7&YorksGreen=5.1&WalesCON=20.6&WalesLAB=48.9&WalesLIB=7.6&WalesReform=6.9&WalesGreen=4.8&WalesNAT=9.2&WMidsCON=29.6&WMidsLAB=48.6&WMidsLIB=7.9&WMidsReform=7.2&WMidsGreen=5.4&EMidsCON=30.1&EMidsLAB=47.1&EMidsLIB=7.6&EMidsReform=7.5&EMidsGreen=5.4&AngliaCON=32.9&AngliaLAB=40.0&AngliaLIB=12.2&AngliaReform=7.1&AngliaGreen=6.3&SWestCON=30.5&SWestLAB=37.5&SWestLIB=16.6&SWestReform=6.5&SWestGreen=6.6&LondCON=20.6&LondLAB=55.5&LondLIB=12.4&LondReform=4.2&LondGreen=6.4&SEastCON=32.0&SEastLAB=37.3&SEastLIB=15.4&SEastReform=6.3&SEastGreen=7.6&display=AllChanged&regorseat=%28none%29&boundary=2019nbbase">poll of polls</a> is shown inside the 650 constituencies of Westminster.</p>
 
-<div class="flourish-embed flourish-parliament" data-src="visualisation/14596852" data-width="90%" align="center"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-parliament" data-src="visualisation/14596852" data-width="75%" align="center"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 </div>
 
@@ -191,7 +187,7 @@ body {
 <h2><a name="HoC">The 2019 General Election - projections in detail</a></h2>
 <p align='justify'>Let's compare the makeup of parliament for the most recent 2019 General Election based on real-world FPTP, area-based, and county-based D'Hondt proportional representation:</p>
 
-<div class="flourish-embed flourish-parliament" data-src="visualisation/14596761" align="center"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-parliament" data-src="visualisation/14596761" align="center" data-width="75%"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 </div>
 
