@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="PR, proportional representation, electoral reform, United Kingdom, England, UK, Britain, GB, devolution, devolved parliament, devolved assembly, D'Hondt method, mixed member system, alternative vote, voting">
 <meta name="description" content="Proportional representation and greater devolution for all United Kingdom elections">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <style>
 * {
   box-sizing: border-box;
@@ -63,7 +64,7 @@ body {
 
 <div class="sidenav"> 
   <a href="../index.html">Home</a>
-  <a> <strong> Overview and Results </strong> </a>
+  <a href="#overview"> <strong> Overview and Results </strong> </a>
   <a href="#HoLR">House of Lords reform</a>
   <a href="#HoCr">House of Commons - PR based UK regions</a>
   <a href="#HoCc">House of Commons - PR based on UK Counties</a>
@@ -76,9 +77,13 @@ body {
 
 <div class="content">
 
+<h2><a name="overview">Overview</a></h2>
+
 <p align="justify"> British democracy consistently evolves with the times, as is the nature of our <a href="https://en.wikipedia.org/wiki/Constitution_of_the_United_Kingdom#Principles">unwritten constitution</a>, to suit the needs and hear the voices of all the people. In the current system members of parliament are elected to a lower and upper house. The lower House of Commons is made up of 650 single-member constituencies. Whoever receives the plurality of votes in a constituency gains a seat in parliament. In an extreme example, Belfast South was won by just 24.5% of the vote in 2015 — reflecting less than a quarter of that constituency’s preference. In the upper House of Lords, all members are appointed for life - giving the public no say on the members of the upper house who scrutinise legislation. A system where large governing majorities are won by around 40% of the vote, and where one house is completely unelected, immediately seems unrepresentative.</p>
 
 <p align="justify">There have been many studies into implementing a form of PR at individual elections (<a href="https://www.tandfonline.com/doi/abs/10.1080/13572339808420557">1998</a>, <a href="https://blogs.lse.ac.uk/politicsandpolicy/what-would-the-election-look-like-under-pr/">2015</a>, <a href="https://www.electoral-reform.org.uk/how-the-2019-election-results-could-have-looked-with-proportional-representation/">2019</a>), but not how one method would have shaped the face of British politics over time. This page first examines proposals made by the Cameron-Clegg coalition, and later discussed by the Brown Commission and Labour party, to reform the House of Lords to a mostly-elected chamber. Then, we use historical General Election data to model previous elections as if they were conducted through proportional representation in multi-member geographical constituencies.</p>
+
+<p align="justify">The scripts and data used to generate these results can be found, reproduced, and ran through <a href="https://github.com/euan-mcgill/euan-projects/tree/master/pol">this GitHub repo</a> <i class="fa-brands fa-github"></i> (Embedded tool coming soon!)</p>
 
 <p align="justify" style="font-size:90%;"> This section is adapted from a <a href="https://medium.com/@euan.mcgill/what-if-the-uk-had-always-had-proportional-representation-f852cf7343b9">Medium article</a> which was part of a previous incarnation of this research. </p>
 
@@ -170,11 +175,13 @@ body {
 <h2><a name="Gal">Proportionality of each method</a></h2>
 <p align='justify'>So how proportional is each electoral method? One way of measuring proportionality is the <a href="https://www.sciencedirect.com/science/article/abs/pii/026137949190004C">Gallagher Index</a>. A score of 0 indicates perfect proportionality (e.g. a party with 55% of the public vote obtains 55% of the seats) but there is not yet an agreed threshold on what can be judged as a proportional election. A score below five was recently suggested as a threshold by a <a href="https://iscanadafair.ca/gallagher-index/">committee</a> on elections in Canada. </p>
 
-<p align="justify">Let's see how all methods compare to one another using the Gallagher Index in the chart below. The calculations for the real Westmister elections' Gallagher Index proportionality were made my <a href="https://www.tcd.ie/research/profiles/?profile=mgllgher">Michael Gallagher himself</a> at Trinity College, Dublin. It is impossible to measure the House of Lords, as none of its members are elected by the public.</p>
-
-<p align="justify">For every General Election since 1945 in the UK, only two in the 1950s meet this target — and the average score was 11.6. The least proportional elections were the reelection of Tony Blair in 2001 (Gallagher index = 17.76), and the reelection of Margaret Thatcher in 1983 (Gallagher index = 17.45). All of these findings show that there is clear scope for a more proportional method of electing British members of parliament.</p>
+<p align="justify">Let's see how all methods compare to one another using the Gallagher Index in the chart below. The calculations for the real Westmister elections' Gallagher Index proportionality were made my <a href="https://www.tcd.ie/research/profiles/?profile=mgllgher">Michael Gallagher himself</a> at Trinity College, Dublin. It is impossible to measure the House of Lords, as none of its members are elected by the public. Below, the Gallagher Index scores are shown for each election in each system mentioned so far. For the <a href="#HoLR">House of Lords reform data</a>, the Gallagher Index scores range between 35.30-43.12. This is not unexpected, owing to the fact that 76/316 members would still be appointed without a public vote.</p>
 
 <p align="center"><img src="gallagher-temp.png"></p>
+
+<p align="justify">For every General Election since 1945 in the UK, only two in the 1950s meet the target score of <=5 — and the average score was 11.6. The least proportional elections were the reelection of Tony Blair in 2001 (Gallagher index = 17.76), and the reelection of Margaret Thatcher in 1983 (Gallagher index = 17.45). All of these findings show that there is clear scope for a more proportional method of electing British members of parliament.</p>
+
+<p align="justify">The average Gallagher Index score for elections between 1955-2019 under party list/D'Hondt simulated elections in twelve countries/regions is 1.23. No election has a score above the threshold for disproportionality. For the county-based system of 108 multi-member constituencies, the average score is 4.46, with six elections not meeting the threshold.</p>
 
 </div>
 
@@ -183,6 +190,9 @@ body {
 <div class="content">
 <h2><a name="HoC">The 2019 General Election - projections in detail</a></h2>
 <p align='justify'>Let's compare the makeup of parliament for the most recent 2019 General Election based on real-world FPTP, area-based, and county-based D'Hondt proportional representation:</p>
+
+<div class="flourish-embed flourish-parliament" data-src="visualisation/14596761" align="center"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
 </div>
 
 <footer style="margin-top: 300px; margin-left: 220px;">
