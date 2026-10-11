@@ -1,4 +1,4 @@
-I'm a senior data manager at Cambridge University Press &amp; Assessment, specifically within the [Cambridge Dictionary](https://dictionary.cambridge.org/) team. I am also an active researcher in the academic community being an alumnus of the University of Edinburgh, and more recently receiving a doctorate in natural language processing (NLP) from Universitat Pompeu Fabra, Barcelona. My primary research interests centre around accessibility and low-resource NLP. My thesis and other works have aimed to tackle these challenges through machine translation, dataset creation, and other low-resource methods. I am also passionate about democracy and the [political geography](https://euan-mcgill.github.io/ProportionalUK/) of Britain.
+I'm a senior data manager at Cambridge University Press &amp; Assessment, specifically within the [Cambridge Dictionary](https://dictionary.cambridge.org/) team. I am also an active researcher in the academic community being an alumnus of the University of Edinburgh, and more recently receiving a doctorate in natural language processing (NLP) from Universitat Pompeu Fabra, Barcelona. My primary research interests centre around accessibility and low-resource NLP. My thesis and other works have aimed to tackle these challenges through machine translation, dataset creation, and other low-resource methods. I am also passionate about democracy and the [(political) geography](https://euan-mcgill.github.io/ProportionalUK/) of [Britain and beyond](./photos-from-planes.html).
 
 
 [CV (PDF)](./cv.pdf) &ensp; [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=en&user=IPtwnwYAAAAJ) &ensp; [ORCID](https://orcid.org/0000-0001-6470-8188) &ensp; [GitHub](https://github.com/euan-mcgill) &ensp; [LinkedIn](https://www.linkedin.com/in/euan-mcgill/)
@@ -191,6 +191,8 @@ Purse, R. & **McGill, E.**
 <!-- projects -->
 
 *[Proportional Representation in the UK](https://euan-mcgill.github.io/ProportionalUK/)*
+
+<img src="./District_2026-08.svg" alt="Map of UK districts, August 2026" width="6064" height="6200" />
 
 Exploring what UK political history could have looked like under proportional representation.
 

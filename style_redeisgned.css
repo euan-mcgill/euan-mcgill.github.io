@@ -213,6 +213,11 @@ body.homepage {
   margin: 0 0 12px;
 }
 
+.homepage .bio p:not(.tagline):not(.profile-links) {
+  text-align: justify;
+  hyphens: auto;
+}
+
 .homepage .profile-links {
   display: flex;
   flex-wrap: wrap;
@@ -299,6 +304,12 @@ body.homepage {
 
 .homepage .section-link {
   font-size: 1rem;
+}
+
+.homepage .markdown-section img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .homepage .markdown-section hr {
