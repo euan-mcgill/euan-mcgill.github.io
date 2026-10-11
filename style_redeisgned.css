@@ -319,6 +319,11 @@ body.homepage {
   align-items: center;
 }
 
+.homepage .updates-page {
+  max-width: 760px;
+  padding-top: 32px;
+}
+
 .homepage footer {
   margin-top: 40px;
   padding: 24px 24px;

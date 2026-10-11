@@ -3,6 +3,8 @@
 {% capture homepage_text %}{% include_relative index.md %}{% endcapture %}
 {% assign sections = homepage_text | split: '<!-- updates -->' %}
 {% assign columns = sections[1] | split: '<!-- publications-and-projects -->' %}
+{% capture updates_text %}{% include_relative updates.md %}{% endcapture %}
+{% assign recent_updates = updates_text | split: '<!-- older -->' %}
 {% assign work = columns[1] | split: '<!-- projects -->' %}
 <!DOCTYPE html>
 <html lang="en">
@@ -28,7 +30,8 @@
       <div class="left-column">
         <section id="updates" aria-labelledby="updates-heading">
           <h2 id="updates-heading">Updates</h2>
-          <div class="markdown-section">{{ columns[0] | markdownify }}</div>
+          <div class="markdown-section">{{ recent_updates[0] | markdownify }}</div>
+          <p class="section-link"><a href="./updates.html">See all updates...</a></p>
         </section>
         <section id="projects" aria-labelledby="projects-heading">
           <h2 id="projects-heading">Projects</h2>

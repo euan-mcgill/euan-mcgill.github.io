@@ -1,0 +1,33 @@
+---
+---
+{% capture updates_text %}{% include_relative updates.md %}{% endcapture %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Updates - Euan McGill</title>
+  <meta name="description" content="All updates from Euan McGill." />
+  <link rel="stylesheet" href="style_redeisgned.css" />
+</head>
+<body class="homepage">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <main id="main" class="page">
+    <header class="introduction">
+      <img class="profile-photo" src="profpic.jpeg" alt="Euan McGill" width="180" height="180" />
+      <div class="bio">
+        <h1>Euan McGill</h1>
+        <p class="section-link"><a href="./index.html">&#8592; Back to home</a></p>
+      </div>
+    </header>
+
+    <section id="updates" class="updates-page" aria-labelledby="updates-heading">
+      <h2 id="updates-heading">Updates</h2>
+      <div class="markdown-section">{{ updates_text | replace: '<!-- older -->', '' | markdownify }}</div>
+    </section>
+  </main>
+  <footer>
+    <p>&#169; 2026 Euan McGill. Site based on a template from <a href="https://www.w3schools.com">w3schools</a> and later modified through a Claude agent (structure only).</p>
+  </footer>
+</body>
+</html>

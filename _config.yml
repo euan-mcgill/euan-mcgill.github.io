@@ -3,4 +3,5 @@ kramdown:
   input: GFM
 exclude:
   - index.md
+  - updates.md
   - README.md
