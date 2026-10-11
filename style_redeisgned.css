@@ -200,6 +200,11 @@ body.homepage {
   font-size: 2.5rem;
   font-weight: 500;
   line-height: 1.15;
+  margin: 0 0 8px;
+}
+
+.homepage .tagline {
+  font-size: 1.25rem;
   margin: 0 0 20px;
 }
 

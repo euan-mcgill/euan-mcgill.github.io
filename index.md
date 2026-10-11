@@ -1,6 +1,7 @@
-I am a linguist and PhD researcher in Natural Language Processing at Universitat Pompeu Fabra, Barcelona. I work on the EU Horizon 2020 project [SignON](https://signon-project.eu/), which aims to develop a spoken-to-sign language translation platform accessible to all. My academic research centres on accessibility in NLP, including Automatic Text Simplification, Corpus Linguistics, Machine Translation, and data augmentation methods. I am also passionate about democracy and the political geography of Britain.
+I'm a senior data manager at Cambridge University Press &amp; Assessment, specifically within the [Cambridge Dictionary](https://dictionary.cambridge.org/) team. I am also an active researcher in the academic community being an alumnus of the University of Edinburgh, and more recently receiving a doctorate in natural language processing (NLP) from Universitat Pompeu Fabra, Barcelona. My primary research interests centre around accessibility and low-resource NLP. My thesis and other works have aimed to tackle these challenges through machine translation, dataset creation, and other low-resource methods. I am also passionate about democracy and the [political geography](https://euan-mcgill.github.io/ProportionalUK/) of Britain.
 
-[CV (PDF)](./cv.pdf) &ensp; [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=en&user=IPtwnwYAAAAJ) &ensp; [ORCID](https://orcid.org/0000-0001-6470-8188) &ensp; [GitHub](https://github.com/euan-mcgill)
+
+[CV (PDF)](./cv.pdf) &ensp; [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=en&user=IPtwnwYAAAAJ) &ensp; [ORCID](https://orcid.org/0000-0001-6470-8188) &ensp; [GitHub](https://github.com/euan-mcgill) &ensp; [LinkedIn](https://www.linkedin.com/in/euan-mcgill/)
 {: .profile-links}
 
 <!-- updates -->
@@ -205,7 +206,7 @@ A parallel, multimodal corpus of English and interpreted British Sign Language d
 
 *[SignON](https://signon-project.eu/)*
 
-A spoken-to-sign language translation platform with accessibility at its centre.
+A EU [Horizon 2020](https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-2020_en) project [SignON](https://signon-project.eu/), which aimed to develop a spoken-to-sign language translation platform accessible to all.
 
 ---
 
