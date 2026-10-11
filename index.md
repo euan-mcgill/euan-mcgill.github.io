@@ -138,6 +138,7 @@ Egea G&#243;mez, **McGill, E.**, & Saggion, H.
 *Proceedings of the 14th Workshop on Building and Using Comparable Corpora (BUCC 2021)*, <time datetime="2021">2021</time>, pp. 18-27. Online.
 {: .venue}
 
+---
 
 #### Misinformation detection
 {: .group-heading}
@@ -161,6 +162,7 @@ Przyby&#322;a, P., **McGill, E.** & Saggion, H.
 *Proceedings of the 14th Workshop on Computational Approaches to Subjectivity, Sentiment, & Social Media Analysis (WASSA 2024)*, <time datetime="2024">2024</time>, pp. 125-140. Bangkok, Thailand.
 {: .venue}
 
+---
 
 #### Sign Language Recognition
 {: .group-heading}
@@ -173,6 +175,7 @@ Garmendia, N., Saggion, H., & **McGill, E.**
 *Proceedings of the Third International Workshop on Automatic Translation for Signed and Spoken Languages (AT4SSL)*, <time datetime="2025">2025</time>, pp. 7-15. Geneva, Switzerland.
 {: .venue}
 
+---
 
 #### Accessibility in NLP
 
@@ -184,6 +187,7 @@ Garmendia, N., Saggion, H., & **McGill, E.**
 *Proceedings of the Doctoral Symposium on Natural Language Processing from the PLN.net network 2021*, <time datetime="2021">2021</time>, pp. 50-59. Ja&#233;n, Spain.
 {: .venue}
 
+---
 
 #### Sociolinguistics
 {: .group-heading}

@@ -273,9 +273,14 @@ body.homepage {
 }
 
 .homepage .entry > time,
+.homepage .authors,
 .homepage .venue {
   color: var(--muted);
   font-size: 0.9375rem;
+}
+
+.homepage .authors {
+  color: var(--ink);
 }
 
 .homepage .entry > time {
