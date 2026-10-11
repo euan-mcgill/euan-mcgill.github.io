@@ -3,6 +3,7 @@
 {% capture homepage_text %}{% include_relative index.md %}{% endcapture %}
 {% assign sections = homepage_text | split: '<!-- updates -->' %}
 {% assign columns = sections[1] | split: '<!-- publications-and-projects -->' %}
+{% assign work = columns[1] | split: '<!-- projects -->' %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,14 +25,20 @@
     </header>
 
     <div class="home-columns">
-      <section id="updates" aria-labelledby="updates-heading">
-        <h2 id="updates-heading">Updates</h2>
-        <div class="markdown-section">{{ columns[0] | markdownify }}</div>
-      </section>
+      <div class="left-column">
+        <section id="updates" aria-labelledby="updates-heading">
+          <h2 id="updates-heading">Updates</h2>
+          <div class="markdown-section">{{ columns[0] | markdownify }}</div>
+        </section>
+        <section id="projects" aria-labelledby="projects-heading">
+          <h2 id="projects-heading">Projects</h2>
+          <div class="markdown-section">{{ work[1] | markdownify }}</div>
+        </section>
+      </div>
 
       <section id="publications-and-projects" aria-labelledby="work-heading">
-        <h2 id="work-heading">Publications and Projects</h2>
-        <div class="markdown-section">{{ columns[1] | markdownify }}</div>
+        <h2 id="work-heading">Publications</h2>
+        <div class="markdown-section">{{ work[0] | markdownify }}</div>
       </section>
     </div>
   </main>

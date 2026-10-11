@@ -6,8 +6,9 @@ Edit **index.md** to update the homepage. The HTML layout, photo, and responsive
 
 - The first block contains the bio and profile links.
 - Updates follow `<!-- updates -->`. Keep them newest first.
-- Publications and projects follow `<!-- publications-and-projects -->`.
-- Keep both section markers unchanged and present exactly once. They tell the layout where each column begins.
+- Publications follow `<!-- publications-and-projects -->` and appear in the right column.
+- Projects follow `<!-- projects -->` and appear below Updates in the left column.
+- Keep all three section markers unchanged and present exactly once. On mobile, the order is Updates, Projects, then Publications.
 - Separate entries with `---` on its own line, with blank lines above and below.
 - Use `#### Title` for an entry title, `**Name**` for bold text, and `[Link text](https://example.com)` for links.
 - Lines like `{: .venue}` or `{: #emnlp-2025}` set styling or link targets. Keep them immediately below the paragraph or heading they apply to.
@@ -50,6 +51,6 @@ This homepage requires Jekyll processing. In the repository's **Settings > Pages
 
 If Pages uses a custom GitHub Actions workflow, it must build with Jekyll before uploading the site; uploading the raw repository alone will not render the Markdown. A `.nojekyll` file must not be present for the built-in Jekyll build.
 
-`index.md` is deliberately excluded as a standalone page: `index.html` includes its source and renders the three blocks using Jekyll's `markdownify` filter. This avoids two files generating the same homepage URL.
+`index.md` is deliberately excluded as a standalone page: `index.html` includes its source and renders the four blocks using Jekyll's `markdownify` filter. This avoids two files generating the same homepage URL.
 
 VS Code's Markdown preview can show the editable content, but not the complete website layout. Opening `index.html` directly no longer renders the complete page. Use the published site, or an optional local Jekyll build, to preview the final design.

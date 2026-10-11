@@ -194,8 +194,7 @@ Purse, R. & **McGill, E.**
 [Full publication list](./curriculum-vitae.html#Pubs)
 {: .section-link}
 
-### Projects
-{: .group-heading}
+<!-- projects -->
 
 #### [Proportional Representation in the UK](https://euan-mcgill.github.io/ProportionalUK/)
 

@@ -231,6 +231,10 @@ body.homepage {
   border: 0;
 }
 
+.homepage .left-column > section + section {
+  margin-top: 32px;
+}
+
 .homepage .group-heading {
   font-size: 1.125rem;
   font-weight: 600;
