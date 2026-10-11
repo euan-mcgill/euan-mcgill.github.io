@@ -11,6 +11,17 @@ I'm a senior data manager at Cambridge University Press &amp; Assessment, specif
 #### Machine translation
 {: .group-heading}
 
+*[The Data Problem behind Sign Language Translation](https://hdl.handle.net/10803/696767)*
+{: #phd}
+
+**McGill, E.**
+{: .authors}
+
+Doctoral thesis, Universitat Pompeu Fabra, <time datetime="2026">2026</time>
+{: .venue}
+
+---
+
 *[Linguistic Processing for Sign Language Translation](https://link.springer.com/book/9783031473616)*
 
 Saggion, H., **McGill, E.**, Chiruzzo, L., & Egea G&#243;mez, S.
@@ -173,8 +184,18 @@ Garmendia, N., Saggion, H., & **McGill, E.**
 
 ---
 
-#### Sociolinguistics
+#### Phonetics and Sociolinguistics
 {: .group-heading}
+
+*[Investigating articulatory variation in the DoubleTalk corpus: Electromagnetic Articulography evidence of phonetic and speech-style variation](./MSc_Thesis.pdf)*
+
+**McGill, E.**
+{: .authors}
+
+Master's thesis, The University of Edinburgh, <time datetime="2017">2017</time>
+{: .venue}
+
+---
 
 *[An intraspeaker variation study of Scottish /r/ pharyngealisation](http://journals.ed.ac.uk/lifespansstyles/article/view/1612/pdf_10)*
 
@@ -184,31 +205,47 @@ Purse, R. & **McGill, E.**
 *Lifespans & Styles*, 2(2), <time datetime="2016">2016</time>, pp. 36-44.
 {: .venue}
 
+---
+
+*[The thing about [hɪŋ]: Production, perception and qualitative data from (th):[h] in Edinburgh speech](./MA_Thesis.pdf)*
+
+**McGill, E.**
+{: .authors}
+
+Undergraduate dissertation, The University of Edinburgh, <time datetime="2016">2016</time>
+{: .venue}
 
 <!-- [Full publication list](./curriculum-vitae.html#Pubs)
 <!-- {: .section-link} -->
 
 <!-- projects -->
 
-*[Proportional Representation in the UK](https://euan-mcgill.github.io/ProportionalUK/)*
+*[Proportional Representation for the UK](https://euan-mcgill.github.io/ProportionalUK/)*
 
 <img src="./District_2026-08.svg" alt="Map of UK districts, August 2026" width="6064" height="6200" />
 
-Exploring what UK political history could have looked like under proportional representation.
+Modelling UK national and local elections using party-list proportional representation, both from the latest opinion polls (preview image above) and from historical elections.
 
 ---
 
-*[BSL-Hansard](https://zenodo.org/record/8159071)*
+*Spoken language text-Sign Language video parallel datasets*
 
-A parallel, multimodal corpus of English and interpreted British Sign Language data from parliamentary proceedings.
+Using a semi-automated pipeline to align audio and transcript text from parliamentary sessions to the video feed including Sign Language interpretation. The goal is to expand the amount of parallel data available for spoken/Sign Language pairs
 
-[Paper (2023)](https://aclanthology.org/2023.at4ssl-1.5/)
+BSL/English from Hansard and parliamentlive.tv: [Paper (2023)](https://aclanthology.org/2023.at4ssl-1.5/), [data](https://zenodo.org/records/8159071).
+LSC/Catalan from the Catalan parliament: Thesis ([Chapter 9](#phd)), [data](https://zenodo.org/records/15685954).
 
 ---
 
 *[SignON](https://signon-project.eu/)*
 
 A EU [Horizon 2020](https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-2020_en) project [SignON](https://signon-project.eu/), which aimed to develop a spoken-to-sign language translation platform accessible to all.
+
+---
+
+*[Photos from planes](./photos-from-planes.html)*
+
+A collection of photos I've taken over the years from plane windows.
 
 ---
 
