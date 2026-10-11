@@ -222,13 +222,13 @@ Undergraduate dissertation, The University of Edinburgh, <time datetime="2016">2
 
 *[Proportional Representation for the UK](https://euan-mcgill.github.io/ProportionalUK/)*
 
-<img src="./District_2026-08.svg" alt="Map of UK districts, August 2026" width="6064" height="6200" />
+<img src="./2024_District.svg" alt="Proportional representation results for the 2024 general election" width="6064" height="6200" />
 
 Modelling UK national and local elections using party-list proportional representation, both from the latest opinion polls (preview image above) and from historical elections.
 
 ---
 
-*Spoken language text-Sign Language video parallel datasets*
+*Spoken language text-to-Sign Language video parallel datasets*
 
 Using a semi-automated pipeline to align audio and transcript text from parliamentary sessions to the video feed including Sign Language interpretation. The goal is to expand the amount of parallel data available for spoken/Sign Language pairs
 
