@@ -1,0 +1,6 @@
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - index.md
+  - README.md
