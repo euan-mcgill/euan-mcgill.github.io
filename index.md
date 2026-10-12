@@ -207,7 +207,7 @@ Purse, R. & **McGill, E.**
 
 ---
 
-*[The thing about \\[hɪŋ\\]: Production, perception and qualitative data from \\(th\\):\\[h\\] in Edinburgh speech](./MA_Thesis.pdf)*
+*[The thing about \[hɪŋ\]: Production, perception and qualitative data from (th):\[h\] in Edinburgh speech](./MA_Thesis.pdf)*
 
 **McGill, E.**
 {: .authors}
