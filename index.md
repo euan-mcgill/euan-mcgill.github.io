@@ -245,7 +245,12 @@ A EU [Horizon 2020](https://research-and-innovation.ec.europa.eu/funding/funding
 
 *[Photos from planes](./photos-from-planes.html)*
 
-<img src="./nightlondon.jpeg" alt="Facing east over London from the air at night" width="1536" height="1465" />
+<figure>
+  <img src="./nightlondon.jpeg"
+       alt="Facing east over London from the air at night"
+       width="1536" height="1465" />
+  <figcaption>Looking east over London at night.</figcaption>
+</figure>
 
 A collection of photos I've taken over the years from plane windows.
 

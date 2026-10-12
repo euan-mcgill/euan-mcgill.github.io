@@ -15,7 +15,15 @@ body {
 /* Sidebar */
 .sidenav {
   height: 100%;
-  width: 220px;
+  width: 220px;  .homepage .markdown-section figure {
+    margin: 16px 0;
+  }
+  
+  .homepage .markdown-section figcaption {
+    margin-top: 6px;
+    color: var(--muted);
+    font-size: 0.875rem;
+  }
   position: fixed;
   top: 0;
   left: 0;
