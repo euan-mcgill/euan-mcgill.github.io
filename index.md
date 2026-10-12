@@ -207,7 +207,7 @@ Purse, R. & **McGill, E.**
 
 ---
 
-*[The thing about [hɪŋ]: Production, perception and qualitative data from (th):[h] in Edinburgh speech](./MA_Thesis.pdf)*
+*[The thing about \[hɪŋ\]: Production, perception and qualitative data from (th):\[h\] in Edinburgh speech](./MA_Thesis.pdf)*
 
 **McGill, E.**
 {: .authors}
@@ -244,6 +244,8 @@ A EU [Horizon 2020](https://research-and-innovation.ec.europa.eu/funding/funding
 ---
 
 *[Photos from planes](./photos-from-planes.html)*
+
+<img src="./nightlondon.jpeg" alt="Facing east over London from the air at night" width="1536" height="1465" />
 
 A collection of photos I've taken over the years from plane windows.
 
