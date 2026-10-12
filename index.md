@@ -228,18 +228,18 @@ Modelling UK national and local elections using party-list proportional represen
 
 ---
 
+*[Bootstrapping word embedding models for Sign language glosses](https://aclanthology.org/2024.eamt-1.13/)*
+
+Adapting pre-trained token embedding models from Word2Vec in spoken languages (English, Dutch, Spanish, and Finnish) to Sign Languages (ASL, NGT, LSE, and FinSL respectively). These models are intended for use in NLP-related tasks, and have been shown to have an impact in machine translation (experiments)[] in these language pairs.
+
+---
+
 *Spoken language text-to-Sign Language video parallel datasets*
 
 Using a semi-automated pipeline to align audio and transcript text from parliamentary sessions to the video feed including Sign Language interpretation. The goal is to expand the amount of parallel data available for spoken/Sign Language pairs
 
 BSL/English from Hansard and parliamentlive.tv: [Paper (2023)](https://aclanthology.org/2023.at4ssl-1.5/), [data](https://zenodo.org/records/8159071).
 LSC/Catalan from the Catalan parliament: Thesis ([Chapter 9](#phd)), [data](https://zenodo.org/records/15685954).
-
----
-
-*[SignON](https://signon-project.eu/)*
-
-A EU [Horizon 2020](https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-2020_en) project [SignON](https://signon-project.eu/), which aimed to develop a spoken-to-sign language translation platform accessible to all.
 
 ---
 
@@ -253,6 +253,12 @@ A EU [Horizon 2020](https://research-and-innovation.ec.europa.eu/funding/funding
 </figure>
 
 A collection of photos I've taken over the years from plane windows.
+
+---
+
+*[SignON](https://signon-project.eu/)*
+
+A EU [Horizon 2020](https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-2020_en) project [SignON](https://signon-project.eu/), which aimed to develop a spoken-to-sign language translation platform accessible to all.
 
 ---
 
