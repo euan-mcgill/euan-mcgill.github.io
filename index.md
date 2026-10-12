@@ -249,7 +249,7 @@ A EU [Horizon 2020](https://research-and-innovation.ec.europa.eu/funding/funding
   <img src="./nightlondon.jpeg"
        alt="Facing east over London from the air at night"
        width="1536" height="1465" />
-  <figcaption>Looking east over London at night.</figcaption>
+  <figcaption>Flying over Hyde Park, and looking south east over London at night.</figcaption>
 </figure>
 
 A collection of photos I've taken over the years from plane windows.
