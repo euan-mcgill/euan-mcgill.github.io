@@ -5,6 +5,7 @@ Edit **index.md** to update the homepage. The HTML layout, photo, and responsive
 ## Editing
 
 - The first block contains the bio and profile links.
+- Profile links include decorative inline HTML icons. Keep each icon inside its Markdown link; `.profile-icon` sizes it to the text and `.profile-links` aligns the row.
 - Updates follow `<!-- updates -->`. Keep them newest first.
 - Publications follow `<!-- publications-and-projects -->` and appear in the right column.
 - Projects follow `<!-- projects -->` and appear below Updates in the left column.

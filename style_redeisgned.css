@@ -233,6 +233,19 @@ body.homepage {
   margin-top: 20px;
 }
 
+.homepage .profile-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+}
+
+.homepage .profile-icon {
+  display: block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+}
+
 .homepage .home-columns {
   display: grid;
   grid-template-columns: minmax(0, 55fr) minmax(0, 45fr);
