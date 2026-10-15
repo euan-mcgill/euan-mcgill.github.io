@@ -230,7 +230,7 @@ Modelling UK national and local elections using party-list proportional represen
 
 *[Bootstrapping word embedding models for Sign language glosses](https://aclanthology.org/2024.eamt-1.13/)*
 
-Adapting pre-trained token embedding models from Word2Vec in spoken languages (English, Dutch, Spanish, and Finnish) to Sign Languages (ASL, NGT, LSE, and FinSL respectively). These models are intended for use in NLP-related tasks, and have been shown to have an impact in machine translation (experiments)[https://zenodo.org/records/15344009] in these language pairs.
+Adapting pre-trained token embedding models from Word2Vec in spoken languages (English, Dutch, Spanish, and Finnish) to Sign Languages (ASL, NGT, LSE, and FinSL respectively). These models are intended for use in NLP-related tasks, and have been shown to have an impact in machine translation [experiments](https://zenodo.org/records/15344009) in these language pairs.
 
 ---
 
